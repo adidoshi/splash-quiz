@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+:root {
+  --brand-color: #1da1f2;
+  --dark-shade: #0369a1;
+  --bg-color: #15202b;
+  --gray-dark: #657786;
+  --gray-light: #e1e8ed;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg-color);
+}
+
+.navigation {
+  color: var(--brand-color);
+  border: none;
+  padding: 0.8rem 2.5rem;
+}
+
+.nav-logo {
+  color: var(--brand-color);
+}
+
+.avatar {
+  cursor: pointer;
+}
+
+.hero-container {
+  margin: 1rem 0;
+  text-align: center;
+  color: white;
+}
+
+.hero-img {
+  width: 25rem;
+  height: 25rem;
+}
+
+.start-btn {
+  text-align: center;
+}
+
+.start-btn button {
+  padding: 0.5rem 1.4rem;
+  border: none;
+  border-radius: 1.2rem;
+  background-color: var(--brand-color);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.start-btn button:hover {
+  background-color: var(--dark-shade);
+}
+
+.category-container {
+  width: 80%;
+  margin: 2.5rem auto;
+  scroll-behavior: smooth;
+}
+
+.category-title {
+  color: white;
+  text-align: center;
+  margin-bottom: 0.6rem;
+  font-size: 1.8rem;
+}
+
+.grid-col-3 {
+  display: grid;
+  grid-template-columns: repeat(1fr, 3);
+  gap: 1rem;
+}
+
+.grid-item {
+  background-color: var(--gray-dark);
+  box-shadow: none;
+  margin: 0.7rem 0;
+}
+
+.grid-item img {
+  height: 14rem;
+}
+
+.grid-item-title {
+  text-align: center;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.grid-item .grid-body {
+  color: var(--gray-light);
+}
+
+.grid-item-sub {
+  color: var(--gray-light);
+  padding: 5px;
+}
+
+.card-actions-btn-filled {
+  background-color: var(--brand-color);
+}
+
+.card-actions-btn-filled:hover {
+  background-color: var(--dark-shade);
+}
+
+@media screen and (max-width: 968px) {
+  .hero-img {
+    width: 20rem;
+    height: 20rem;
+  }
+  .grid-col-3 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .category-container {
+    width: 90%;
+  }
+  .grid-col-3 {
+    grid-template-columns: 1fr;
+  }
+}

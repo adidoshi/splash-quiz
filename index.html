@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Splash Quiz</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://splashui.netlify.app/css/components.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navigation">
+      <div class="nav-left">
+        <a href="/index.html"><h2 class="nav-logo">Splash Quiz</h2></a>
+      </div>
+
+      <div class="nav-right">
+        <img
+          class="avatar sm"
+          src="https://splashui.netlify.app/assets/images/sampleAvatar.png"
+          alt="avatar-img"
+        />
+      </div>
+    </nav>
+
+    <!-- hero text -->
+    <div class="hero-container">
+      <h1 class="hero-title">Welcome to Splash Quizz!</h1>
+      <h2>Play around here, to test your knowledge!</h2>
+
+      <!-- hero image -->
+      <img class="hero-img" src="/assets/heroImg.svg" alt="hero-img" />
+    </div>
+
+    <!-- button -->
+    <div class="start-btn">
+      <a href="#category-section"><button>Get Started</button></a>
+    </div>
+
+    <!-- quiz categories -->
+    <main class="category-container" id="category-section">
+      <h2 class="category-title">Quiz Categories</h2>
+      <section class="grid-col-3">
+        <!-- 1 -->
+        <div class="grid-item" id="lift">
+          <img
+            src="/assets/movieCard.jpg"
+            alt="card img"
+            class="responsive-img"
+          />
+          <h3 class="grid-item-title">Movies</h3>
+          <p class="grid-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+            veniam ipsam deleniti.
+          </p>
+          <p class="grid-item-sub">5 questions</p>
+          <div class="grid-footer">
+            <button class="card-actions-btn-filled">Play Now</button>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="grid-item" id="lift">
+          <img
+            src="/assets/sportsCard.jpg"
+            alt="card img"
+            class="responsive-img"
+          />
+          <h3 class="grid-item-title">Sports</h3>
+          <p class="grid-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+            veniam ipsam deleniti.
+          </p>
+          <p class="grid-item-sub">5 questions</p>
+          <div class="grid-footer">
+            <button class="card-actions-btn-filled">Play Now</button>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="grid-item" id="lift">
+          <img
+            src="/assets/programmingCard.jpg"
+            alt="card img"
+            class="responsive-img"
+          />
+          <h3 class="grid-item-title">Programming</h3>
+          <p class="grid-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+            veniam ipsam deleniti.
+          </p>
+          <p class="grid-item-sub">5 questions</p>
+          <div class="grid-footer">
+            <button class="card-actions-btn-filled">Play Now</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
