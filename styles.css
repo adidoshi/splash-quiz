@@ -42,7 +42,7 @@ body {
   text-align: center;
 }
 
-.start-btn button {
+.button-filled {
   padding: 0.5rem 1.4rem;
   border: none;
   border-radius: 1.2rem;
@@ -52,7 +52,7 @@ body {
   cursor: pointer;
 }
 
-.start-btn button:hover {
+.button-filled:hover {
   background-color: var(--dark-shade);
 }
 
