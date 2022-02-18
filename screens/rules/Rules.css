@@ -1,0 +1,46 @@
+.rules-container {
+  height: max-content;
+  width: 45%;
+  margin: 2rem auto;
+  background-color: var(--gray-dark);
+  border-radius: 2rem;
+}
+
+.rules-title {
+  color: black;
+}
+
+.rules-title i {
+  color: rgb(118, 207, 118);
+}
+
+.rules-wrapper {
+  padding: 1rem;
+  color: white;
+}
+
+.rules-wrapper .rules-title {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.rules-list {
+  margin: 1rem 0;
+  padding: 0 2.5rem;
+}
+
+.rules-list ul li {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+
+.rules-action-btn {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 1250px) {
+  .rules-container {
+    width: 90%;
+  }
+}
