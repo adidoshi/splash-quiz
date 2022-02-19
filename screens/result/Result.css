@@ -1,0 +1,30 @@
+.result-title {
+  text-align: center;
+  color: white;
+}
+
+.result-title h1 {
+  font-size: 2rem;
+}
+
+.result-title p {
+  font-size: 1.2rem;
+}
+
+.result-title p span {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.result-hr {
+  border-color: var(--dark-gray);
+  margin: 1.4rem 0 0.4rem 0;
+}
+
+.noHover {
+  pointer-events: none;
+}
+
+.result-btn {
+  margin: 1rem 0;
+}
