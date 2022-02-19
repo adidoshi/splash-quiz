@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 5 | Splash Quiz</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://splashui.netlify.app/css/components.css"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="./Questions.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navigation">
+      <div class="nav-left">
+        <a href="/index.html"><h2 class="nav-logo">Splash Quiz</h2></a>
+      </div>
+
+      <div class="nav-right">
+        <img
+          class="avatar sm"
+          src="https://splashui.netlify.app/assets/images/sampleAvatar.png"
+          alt="avatar-img"
+        />
+      </div>
+    </nav>
+
+    <!-- question -->
+    <main class="question-container">
+      <section class="question-box">
+        <div class="question-header">
+          <div class="question-header-title">
+            <h4>Question 5/5</h4>
+          </div>
+          <p>Score : 0</p>
+          <div class="question-header-timer">
+            <i class="far fa-clock"></i><span>00:30</span>
+          </div>
+        </div>
+        <hr class="question-hr" />
+        <div class="question-body">
+          <h2>1. What does CSS stands for?</h2>
+          <form class="mcq-form">
+            <label class="input-grp-label" for="optionOne">
+              <input id="optionOne" name="questionOne" type="radio" />
+              Color and style sheets
+            </label>
+            <label class="input-grp-label" for="optionTwo">
+              <input id="optionTwo" name="questionOne" type="radio" />
+              Cascade style sheets
+            </label>
+            <label class="input-grp-label" for="optionThree">
+              <input id="optionThree" name="questionOne" type="radio" />
+              Cascading style sheets
+            </label>
+            <label class="input-grp-label" for="optionFour">
+              <input id="optionFour" name="questionOne" type="radio" />
+              None of the above
+            </label>
+          </form>
+        </div>
+        <div class="question-footer">
+          <a href="/index.html"><button class="button-outline">Quit</button></a>
+          <a href="../result/Result.html"
+            ><button class="button-filled">Results</button></a
+          >
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
