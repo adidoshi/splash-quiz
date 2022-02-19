@@ -9,7 +9,7 @@
 .question-box {
   width: 32.5rem;
   border-radius: 1.2rem;
-  box-shadow: 0 5px 20px -5px rgb(106, 109, 109);
+  box-shadow: var(--question-box-shadow);
   height: auto;
   margin: 1.5rem 0;
 }

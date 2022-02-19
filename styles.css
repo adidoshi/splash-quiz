@@ -8,6 +8,7 @@
   --gray-light: #e1e8ed;
   --correct-color: #4ade80;
   --wrong-color: #ef4444;
+  --question-box-shadow: 0 5px 20px -5px rgb(106, 109, 109);
 }
 
 body {
